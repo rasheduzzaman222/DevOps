@@ -1,0 +1,46 @@
+System Report
+Generated: Sun Dec  7 05:15:56 PM +06 2025
+
+-----Health----
+CPU/RAM/DISK Info
+ 17:15:56 up 15 min,  1 user,  load average: 0.60, 1.77, 1.97
+top - 17:15:57 up 15 min,  1 user,  load average: 0.60, 1.77, 1.97
+Tasks: 206 total,   1 running, 205 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.8 us,  8.3 sy,  0.0 ni, 86.1 id,  0.0 wa,  0.0 hi,  2.8 si,  0.0 st 
+MiB Mem :   3897.0 total,   1484.6 free,   1060.8 used,   1620.5 buff/cache     
+MiB Swap:   3897.0 total,   3897.0 free,      0.0 used.   2836.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1635 rashed     9 -11  137228  16036   9184 S   9.1   0.4   0:20.44 pipewire
+   3568 rashed    20   0   14504   5560   3424 R   9.1   0.1   0:00.02 top
+      1 root      20   0   23160  14424   9572 S   0.0   0.4   0:07.13 systemd
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.0Gi       1.4Gi        34Mi       1.6Gi       2.8Gi
+Swap:          3.8Gi          0B       3.8Gi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           390M  1.5M  389M   1% /run
+/dev/sda2       218G   13G  195G   6% /
+tmpfs           2.0G     0  2.0G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+efivarfs        256K   96K  156K  38% /sys/firmware/efi/efivars
+/dev/sda1       1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           390M  112K  390M   1% /run/user/1000
+
+----Process----
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.7  0.3  23160 14424 ?        Ss   17:00   0:07 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    17:00   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    17:00   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   17:00   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   17:00   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   17:00   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   17:00   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   17:00   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I    17:00   0:00 [kworker/0:0-mm_percpu_wq]
+
+____Log Analysis----
+Showing first 5 line
+Showing last 5 lines
+Find ERROR lines
+Extract first and second column
+Sorting components
